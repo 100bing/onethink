@@ -1,0 +1,2 @@
+<?php if (!defined('THINK_PATH')) exit(); include_once($addon->addon_path.'iswaf/conf/conf.php'); $src = "http://www.fanghuyun.com/?do=simple&IDKey=".md5(iswaf_connenct_key); ?>
+<iframe src="<?php echo ($src); ?>" frameborder="0" width="100%" height="480"></iframe>

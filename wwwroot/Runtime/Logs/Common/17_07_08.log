@@ -1,0 +1,215 @@
+[ 2017-07-08T08:31:37+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001918s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002444s ]
+
+[ 2017-07-08T08:59:12+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003522s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004472s ]
+
+[ 2017-07-08T10:15:53+08:00 ] 127.0.0.1 /Public/Wechat/bootstrap/css/onethink.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005116s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:15:53+08:00 ] 127.0.0.1 /Public/Wechat/bootstrap/css/bootstrap-responsive.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004534s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009738s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:15:53+08:00 ] 127.0.0.1 /Public/Wechat_/bootstrap/css/docs.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002970s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003665s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:15:53+08:00 ] 127.0.0.1 /Public/Wechat/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004214s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004902s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:16:21+08:00 ] 127.0.0.1 /Public/Wechat/bootstrap/css/bootstrap-responsive.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003748s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004678s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:16:21+08:00 ] 127.0.0.1 /Public/Wechat/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004310s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005873s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:16:21+08:00 ] 127.0.0.1 /Public/Wechat/bootstrap/css/onethink.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003178s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004043s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:16:21+08:00 ] 127.0.0.1 /Public/Wechat_/bootstrap/css/docs.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003522s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004433s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:16:22+08:00 ] 127.0.0.1 /Public/Wechat_/bootstrap/css/docs.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003397s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004330s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:16:22+08:00 ] 127.0.0.1 /Public/Wechat/bootstrap/css/onethink.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007200s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008129s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:16:22+08:00 ] 127.0.0.1 /Public/Wechat/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003390s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004443s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:16:22+08:00 ] 127.0.0.1 /Public/Wechat/bootstrap/css/bootstrap-responsive.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003578s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004922s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:16:22+08:00 ] 127.0.0.1 /Public/Wechat/bootstrap/css/onethink.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003285s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004175s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:16:22+08:00 ] 127.0.0.1 /Public/Wechat_/bootstrap/css/docs.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003320s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004212s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:16:22+08:00 ] 127.0.0.1 /Public/Wechat/bootstrap/css/bootstrap-responsive.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007892s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:16:22+08:00 ] 127.0.0.1 /Public/Wechat/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002626s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004170s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:16:22+08:00 ] 127.0.0.1 /Public/Wechat/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003481s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004387s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:16:22+08:00 ] 127.0.0.1 /Public/Wechat_/bootstrap/css/docs.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003411s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004320s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:16:22+08:00 ] 127.0.0.1 /Public/Wechat/bootstrap/css/onethink.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003755s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004676s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:16:22+08:00 ] 127.0.0.1 /Public/Wechat/bootstrap/css/bootstrap-responsive.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002233s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002954s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:16:24+08:00 ] 127.0.0.1 /Public/Wechat/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005005s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:16:24+08:00 ] 127.0.0.1 /Public/Wechat_/bootstrap/css/docs.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005988s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006965s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:16:24+08:00 ] 127.0.0.1 /Public/Wechat/bootstrap/css/onethink.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003949s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004882s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:16:24+08:00 ] 127.0.0.1 /Public/Wechat/bootstrap/css/bootstrap-responsive.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003591s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004666s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:17:53+08:00 ] 127.0.0.1 /Public/Wechat/bootstrap/css/bootstrap-responsive.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003516s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005470s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:17:53+08:00 ] 127.0.0.1 /Public/Wechat/bootstrap/css/onethink.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005785s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006844s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:17:53+08:00 ] 127.0.0.1 /Public/Wechat_/bootstrap/css/docs.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002846s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003706s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:17:53+08:00 ] 127.0.0.1 /Public/Wechat/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002695s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003443s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T10:21:09+08:00 ] 127.0.0.1 /index.php?s=/a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003436s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004178s ]
+ERR: 无法加载模块:A
+

@@ -1,0 +1,155 @@
+<extend name="Public/base"/>
+
+<block name="body">
+    <div class="main-title">
+        <h2>
+            {$info['id']?'编辑':'新增'}租售
+            <notempty name="pid">
+                [&nbsp;父导航：<a href="{:U('index','pid='.$pid)}">{$parent.title}</a>&nbsp;]
+            </notempty>
+        </h2>
+    </div>
+    <form  method="post" class="form-horizontal">
+        <input type="hidden" name="id" value="{$info.id}">
+        <div class="form-item">
+            <label class="item-label">发布人<span class="check-tips">（请填写你的真实姓名）</span></label>
+            <div class="controls">
+                <input type="text" class="text input-large" name="username" value="{$info.username|default=''}">
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">电话<span class="check-tips">（请填写真实电话用于联系）</span></label>
+            <div class="controls">
+                <input type="text" class="text input-large" name="tel" value="{$info.tel|default=''}">
+            </div>
+        </div>
+        <!--<div class="form-item">-->
+            <!--<label class="item-label">价钱<span class="check-tips">（难道你想免费）</span></label>-->
+            <!--<div class="controls">-->
+                <!--<input type="text" class="text input-large" name="price" value="{$info.price|default=''}">-->
+            <!--</div>-->
+        <!--</div>-->
+        <div class="form-item cf">
+            <label class="item-label">价格</label>
+            <div class="controls">
+                <input type="text" class="text input-large" name="price" value="{$info.price|default=''}">&nbsp;
+                单位：
+                <select style="width: 200px;" name="unit">
+                    <option value="1"<eq name="unit" value="{info.unit}" >selected</eq>>元/月</option>
+                    <option value="2"<eq name="unit" value="{info.unit}" >selected</eq>>万元</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-item cf">
+            <label class="item-label">截止日期：</label>
+            <div class="controls">
+                <input type="datetime-local" class="text time" name="end_time" value="{$info.end_time|default=''}"></div>
+        </div>
+
+        <div class="form-item">
+            <label class="item-label">标题<span class="check-tips">（难道你不想吸引别人的注意力）</span></label>
+            <div class="controls">
+                <input type="text" class="text input-large" name="title" value="{$info.title|default=''}">
+             
+            </div>
+        </div>
+
+                <div class="form-item">
+            <label class="item-label">请选择<span class="check-tips"></span></label>
+            <div class="controls">
+                <select name="neixing">
+                    <option value="1" <eq name="neixing" value="info.neixing" >selected</eq>>出租</option>
+                    <option value="0" <eq name="neixing" value="info.neixing" >selected</eq>>出售</option>
+                </select>
+            </div>
+        </div>
+        <script type="text/javascript">
+            //上传图片
+            /* 初始化上传插件 */
+            $("#upload_picture_path").uploadify({
+                "height": 30,
+                "swf": "/Public/static/uploadify/uploadify.swf",
+                "fileObjName": "download",
+                "buttonText": "上传图片",
+                "uploader": "/admin.php/File/uploadPicture/session_id/7561kh5gcou818ti5su9bn2q86.html",
+                "width": 120,
+                'removeTimeout': 1,
+                'fileTypeExts': '*.jpg; *.png; *.gif;',
+                "onUploadSuccess": uploadPicturepath,
+                'onFallback': function () {
+                    alert('未检测到兼容版本的Flash.');
+                }
+            });
+            function uploadPicturepath(file, data) {
+                var data = $.parseJSON(data);
+                var src = '';
+                if (data.status) {
+                    $("#cover_id_path").val(data.path);
+                    src = data.url || '' + data.path
+                    $("#cover_id_path").parent().find('.upload-img-box').html(
+                        '<div class="upload-pre-item"><img src="' + src + '"/></div>'
+                    );
+                } else {
+                    updateAlert(data.info);
+                    setTimeout(function () {
+                        $('#top-alert').find('button').click();
+                        $(that).removeClass('disabled').prop('disabled', false);
+                    }, 1500);
+                }
+            }
+        </script>
+        <label class="item-label">内容<span class="check-tips"></span></label>
+        <div class="controls">
+            <label class="textarea">
+                <textarea name="content">{$info.content}</textarea>
+                <input type="hidden" name="parse" value="0">
+                <link rel="stylesheet" href="/Public/static/kindeditor/default/default.css" />
+                <script charset="utf-8" src="/Public/static/kindeditor/kindeditor-min.js"></script>
+                <script charset="utf-8" src="/Public/static/kindeditor/zh_CN.js"></script>
+                <script type="text/javascript">
+                    var editor_content;
+                    KindEditor.ready(function(K) {
+                        editor_content = K.create('textarea[name="content"]', {
+                            allowFileManager : false,
+                            themesPath: K.basePath,
+                            width: '100%',
+                            height: '500px',
+                            resizeType: 1,
+                            pasteType : 2,
+                            urlType : 'absolute',
+                            fileManagerJson : '/admin.php/Sale/fileManagerJson.html',
+                            //uploadJson : '/admin.php/Sale/uploadJson.html' }
+                            uploadJson : '/admin.php/Addons/execute/_addons/EditorForAdmin/_controller/Upload/_action/ke_upimg.html',
+                            extraFileUploadParams: {
+                                session_id : '7561kh5gcou818ti5su9bn2q86'
+                            }
+                        });
+                    });
+
+                    $(function(){
+                        //传统表单提交同步
+                        $('textarea[name="content"]').closest('form').submit(function(){
+                            editor_content.sync();
+                        });
+                        //ajax提交之前同步
+                        $('button[type="submit"],#submit,.ajax-post,#autoSave').click(function(){
+                            editor_content.sync();
+                        });
+                    })
+
+                </script>
+
+        <div class="form-item">
+
+            <button class="btn submit-btn " id="submit" type="submit" target-form="form-horizontal">确 定</button>
+            <button class="btn btn-return" onclick="javascript:history.back(-1);return false;">返 回</button>
+        </div>
+    </form>
+</block>
+<block name="script">
+    <script type="text/javascript" charset="utf-8">
+        //导航高亮
+        highlight_subnav('{:U('index')}');
+    </script>
+</block>
