@@ -85,19 +85,14 @@ class WechatController extends AdminController {
             }
             $this->assign('info', $info);
             $this->meta_title = '编辑导航';
-
             $this->display('add');
         }
-
     }
-
         public function del(){
             $id = array_unique((array)I('id',0));
-
             if ( empty($id) ) {
                 $this->error('请选择要操作的数据!');
             }
-
             $map = array('id' => array('in', $id) );
                 if(M('WechatZu')->where($map)->delete()){
                 //记录行为
@@ -106,7 +101,6 @@ class WechatController extends AdminController {
             } else {
                 $this->error('删除失败！');
             }
-
     }
     public function active(){
 
@@ -138,5 +132,39 @@ class WechatController extends AdminController {
             $this->error('删除失败！');
         }
 
+    }
+    //小区保修
+    public function repair(){
+
+        $m=M('WechatRepair');
+
+        import('ORG.Util.Page');// 导入分页类
+        $count= $m->count();// 查询满足要求的总记录数
+        $page    = new Page($count,3);// 实例化分页类 传入总记录数和每页显示的记录数
+        $page->setConfig('header','条信息');
+        $show = $page->show();// 分页显示输出
+        $this->assign('page',$show);// 赋值分页输出
+        $list  = $m->limit($page->firstRow.','.$page->listRows)->select();
+        $this->assign('list',$list);// 赋值数据集
+        $this->display();
+    }
+    //点击保修完成
+    public function ok(){
+        $id = array_unique((array)I('id',0));
+
+        if ( empty($id) ) {
+            $this->error('请选择要操作的数据!');
+        }
+        $m=M('WechatRepair');
+        $m->status=1;
+
+
+        if($m->where($id)->save()){
+            //记录行为
+            action_log('update_wechat_activity', 'wechat_activity', $id, UID);
+            $this->success('删除成功');
+        } else {
+            $this->error('删除失败！');
+        }
     }
 }

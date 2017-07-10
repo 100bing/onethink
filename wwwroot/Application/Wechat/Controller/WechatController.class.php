@@ -24,7 +24,7 @@ class  WechatController extends  Controller{
         if ( !is_login() ) {
             $this->error( '您还没有登陆',U('login') );
         }
-        $id=session('user_outh')['uid'];
+        $id=session('user_auth')['uid'];
         $list = M('UcenterMember')->find($id);
 
         $this->assign('list', $list);
@@ -252,6 +252,7 @@ class  WechatController extends  Controller{
                     if($Member->login($uid)){ //登录用户
                         //TODO:跳转到登录前页面
                         $this->success('登录成功！',U('Wechat/Wechat/my'));
+
                     } else {
                         $this->error($Member->getError());
                     }
@@ -336,6 +337,47 @@ class  WechatController extends  Controller{
             default:  $error = '未知错误';
         }
         return $error;
+    }
+
+    //报修
+    public function repair($verify = ''){
+        //判断用户有没有登陆
+        if ( !is_login() ) {
+            $this->error( '您还没有登陆',U('login') );
+        }
+        if(IS_POST){ //登录验证
+            /* 检测验证码 */
+            if(!check_verify($verify)){
+                $this->error('验证码输入错误！');
+            }
+            $M=D('WechatRepair');
+
+            $data = $M->create();
+            if($data){
+                $M->uid=session('user_auth')['uid'];
+                $id = $M->add();
+                if($id){
+                    $this->success('新增成功', U('index'));
+
+                } else {
+                    $this->error('新增失败');
+                }
+            }else {
+                $this->error($M->getError());
+            }
+        }
+        //显示界面
+        $this->display();
+    }
+    //我的报修
+    public function myrepair(){
+        $uid=session('user_auth')['uid'];
+        $u = M('UcenterMember')->find($uid);
+        $list=M('WechatRepair')->where("uid=$uid")->select();
+        $this->assign('u', $u);
+        $this->assign('list', $list);
+        $this->display();
+
     }
 
 
