@@ -167,4 +167,19 @@ class WechatController extends AdminController {
             $this->error('删除失败！');
         }
     }
+    //问卷调查
+    public function question(){
+        $m=M('WechatRepair');
+
+        import('ORG.Util.Page');// 导入分页类
+        $count= $m->count();// 查询满足要求的总记录数
+        $page    = new Page($count,3);// 实例化分页类 传入总记录数和每页显示的记录数
+        $page->setConfig('header','条信息');
+        $show = $page->show();// 分页显示输出
+        $this->assign('page',$show);// 赋值分页输出
+        $list  = $m->limit($page->firstRow.','.$page->listRows)->select();
+        $this->assign('list',$list);// 赋值数据集
+        $this->display();
+
+    }
 }

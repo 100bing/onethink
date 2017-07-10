@@ -31,7 +31,7 @@
                 <p class="navbar-text"><a href="index.html" class="navbar-link">首页</a></p>
             </div>
             <div class="col-xs-3">
-                <p class="navbar-text"><a href="fuwu.html" class="navbar-link">服务</a></p>
+                <p class="navbar-text"><a href="<?php echo U('service');?>" class="navbar-link">服务</a></p>
             </div>
             <div class="col-xs-3">
                 <p class="navbar-text"><a href="faxian.html" class="navbar-link">发现</a></p>

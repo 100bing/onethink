@@ -379,6 +379,18 @@ class  WechatController extends  Controller{
         $this->display();
 
     }
+    //显示服务页面
+    public function service(){
+        $this->display();
+    }
+    //问卷调查
+    public function question(){
+        if ( !is_login() ) {
+            $this->error( '您还没有登陆',U('login') );
+        }
+        $this->dispaly();
+
+    }
 
 
 

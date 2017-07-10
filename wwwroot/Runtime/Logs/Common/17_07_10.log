@@ -1,0 +1,73 @@
+[ 2017-07-10T08:40:58+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002569s ]
+
+[ 2017-07-10T09:06:54+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003809s ]
+
+[ 2017-07-10T09:20:44+08:00 ] 127.0.0.1 /Wchat/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003989s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004703s ]
+ERR: 无法加载模块:Wchat
+
+[ 2017-07-10T09:20:46+08:00 ] 127.0.0.1 /wchat.php?s=/Wchat/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002764s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003494s ]
+ERR: 无法加载模块:Wchat
+
+[ 2017-07-10T09:41:48+08:00 ] 127.0.0.1 /Repair/repair.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003671s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004442s ]
+ERR: 无法加载模块:Repair
+
+[ 2017-07-10T09:41:53+08:00 ] 127.0.0.1 /Repair/repair.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005899s ]
+ERR: 无法加载模块:Repair
+
+[ 2017-07-10T09:43:35+08:00 ] 127.0.0.1 /Repair/repair.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003456s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004230s ]
+ERR: 无法加载模块:Repair
+
+[ 2017-07-10T16:33:49+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004325s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005316s ]
+
+[ 2017-07-10T16:34:01+08:00 ] 127.0.0.1 /Public/Wechat/images/3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003420s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004192s ]
+
+[ 2017-07-10T16:34:09+08:00 ] 127.0.0.1 /Service/listIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005739s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008006s ]
+ERR: 无法加载模块:Service
+
+[ 2017-07-10T16:36:34+08:00 ] 127.0.0.1 /Question/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005548s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006400s ]
+ERR: 无法加载模块:Question
+
