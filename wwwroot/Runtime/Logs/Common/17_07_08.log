@@ -213,3 +213,213 @@ INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003436s ]
 INFO: [ app_init ] --END-- [ RunTime:0.004178s ]
 ERR: 无法加载模块:A
 
+[ 2017-07-08T11:24:58+08:00 ] 127.0.0.1 /bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003842s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005161s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2017-07-08T14:18:57+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002667s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003368s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T14:18:57+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002783s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003476s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T14:18:57+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002771s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003464s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T14:18:58+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002728s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003427s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T14:18:58+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002755s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003438s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T14:18:58+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002764s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003424s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T14:18:58+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003896s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T14:18:58+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002704s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003408s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T14:18:59+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002787s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003535s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T14:18:59+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002758s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003443s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T14:18:59+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002755s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003459s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T14:18:59+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002837s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003532s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T14:19:00+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002902s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003636s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T14:19:00+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002797s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003492s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T14:19:00+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002705s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003347s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T14:19:01+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002726s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003506s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T14:19:01+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003747s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T14:19:07+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003703s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004510s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T14:19:07+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003503s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004251s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T14:19:07+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004832s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T14:19:08+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003462s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004199s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T14:19:08+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003557s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004310s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T14:19:09+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004215s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005366s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T14:19:09+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003871s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004725s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T15:39:26+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003471s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004233s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T15:39:27+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003732s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004527s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T15:39:27+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003552s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004326s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T15:39:27+08:00 ] 127.0.0.1 /wchat.php?s=/Activity/index/p/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005823s ]
+ERR: 无法加载模块:Activity
+
+[ 2017-07-08T16:07:09+08:00 ] 127.0.0.1 /Public/Wchat/js/my.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006819s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007933s ]
+ERR: 无法加载模块:Public
+

@@ -67,6 +67,7 @@
                 <li class="list-group-item"><a href="diaochawenjuan.html" class="text-danger"><span class="iconfont">&#xe60a;</span>我的缴费账单</a> </li>
                 <li class="list-group-item"><a href="yezhurenzheng.html" class="text-info"><span class="iconfont">&#xe608;</span>我的物业通知</a></li>
                 <li class="list-group-item"><a href="yezhurenzheng.html" class="text-info"><span class="iconfont">&#xe607;</span>我的水电气使用</a></li>
+                <li class="list-group-item"><a href="<?php echo U('Wechat/Wechat/logout');?>" class="text-info"><span class="iconfont">&#xe607;</span>退出登录</a></li>
             </ul>
         </div>
     </div>

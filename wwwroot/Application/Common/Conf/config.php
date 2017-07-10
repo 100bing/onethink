@@ -20,7 +20,7 @@ return array(
         // 定义格式1 数组方式
         'Index:Index'    =>     array('{:module}/{:controller}_{:action}',600),
         // 定义格式2 字符串方式
-        'User:User:login'    =>    array('login.html',3600),
+        'Wechar:Wechar:login'    =>    array('login.html',3600),
 
     ),
 

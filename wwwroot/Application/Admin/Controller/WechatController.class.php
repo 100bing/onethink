@@ -108,9 +108,35 @@ class WechatController extends AdminController {
             }
 
     }
+    public function active(){
 
+        $m=M('WechatActivity');
 
+        import('ORG.Util.Page');// 导入分页类
+        $count= $m->count();// 查询满足要求的总记录数
+        $page    = new Page($count,3);// 实例化分页类 传入总记录数和每页显示的记录数
+        $page->setConfig('header','条信息');
+        $show = $page->show();// 分页显示输出
+        $this->assign('page',$show);// 赋值分页输出
+        $list  = $m->limit($page->firstRow.','.$page->listRows)->select();
+        $this->assign('list',$list);// 赋值数据集
+        $this->display();
+    }
+    public function dele(){
+        $id = array_unique((array)I('id',0));
 
+        if ( empty($id) ) {
+            $this->error('请选择要操作的数据!');
+        }
 
+        $map = array('id' => array('in', $id) );
+        if(M('WechatActivity')->where($map)->delete()){
+            //记录行为
+            action_log('update_wechat_activity', 'wechat_activity', $id, UID);
+            $this->success('删除成功');
+        } else {
+            $this->error('删除失败！');
+        }
 
+    }
 }
